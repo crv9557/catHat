@@ -1,10 +1,10 @@
 <p style="text-align: center">
-  <img src="img/cat.png" style="position: relative">
-  <img src="img/cat.png" style="position: relative">
+  <img src="img/cat.png" id="cat" style="position: relative">
+  <img src="img/hat.png" id="hat" style="position: relative">
 </p>
 <script>
-  var cat = document.querySelector("img");
-  var hat = document.querySelector("img");
+  var cat = document.querySelector("#cat");
+  var hat = document.querySelector("#hat");
   var angle = 0, lastTime = null;
   function animate(time) {
     if (lastTime != null)
